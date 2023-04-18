@@ -1,0 +1,59 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* parte header */
+header {
+    height: 100px;
+    padding: 10px 0px;
+    
+}
+
+.logo_desktop { 
+    max-width: 100%;
+    
+}
+
+.logo_desktop img {
+    max-width: 100%;
+}
+
+.rounded {
+    background-color: #e5e5e5;
+    border-radius: none;
+    
+}
+
+.input-group-text.border-0 {
+    background-color:  #e5e5e5;
+}
+
+.input-group.rounded {
+	
+	color: grey
+}
+
+.fa-bell {
+    color: #ff8f00;
+}
+
+.display_none {
+    display: none;
+}
+
+
+
+.logo_mobile img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width: 992px) {
+    .logo_mobile {
+      display:none;
+
+    } 
+
+    .display_none {
+        display:block
+    }
+}
