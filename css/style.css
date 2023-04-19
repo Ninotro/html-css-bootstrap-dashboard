@@ -182,6 +182,8 @@ main {
 
   /* table_card  */
 
+ 
+
   .table_card {
     margin: 20px 5px;
     font-size: 14px;
@@ -248,3 +250,15 @@ main {
     max-width: 100%;
     object-fit: contain;
  }
+
+ /* offcanvas */
+
+ .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+	
+	--bs-offcanvas-width: 700px;
+	
+}
+
+.offcanvas {
+    font-size: 14px;
+}
