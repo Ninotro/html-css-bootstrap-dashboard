@@ -40,9 +40,7 @@ header {
     display: none;
 }
 
-.dropdown {
-    
-}
+
 
 
 .logo_mobile img {
@@ -66,10 +64,15 @@ header {
 
 /* PARTE UTILITY BAR */
 
+main {
+    height: 100vh;
+    
+}
+
 #utility-bar {
     width: 100px;
     background-color: #10273d;
-    height: 100vh;
+    height: 100%;
     color: white;
     padding: 20px 0;
     font-size: 18px;
@@ -94,6 +97,7 @@ header {
  @media (min-width: 992px) {
     #utility-bar {
         width: 200px;
+        
     }
 
     #utility-bar .display_none {
@@ -205,6 +209,10 @@ header {
     padding: 3px 3px;
     font-size: 12px;
   }
+
+  .card-header {
+    font-size: 20px;
+  }
  
   .btn.orange {
     background-color: #ff8f00;
@@ -221,3 +229,22 @@ header {
     color: white;
     font-weight: bold;
   }
+
+  /* parte faq */
+
+  #faq {
+    margin: 20px 0px
+  }
+
+ /* Parte todo */
+
+ #todo {
+    margin-bottom: 20px;
+ }
+
+ /* parte img graphic */
+
+ .img_container img {
+    max-width: 100%;
+    object-fit: contain;
+ }
